@@ -35,7 +35,7 @@ namespace Authentication_System
 
         private void Login_Click(object sender, EventArgs e)
         {
-            string file = ".";
+            string file = @"D:\\Study materials\\C programming\\CS\\Authentication_System\\Authentication_System\\TextFile1.txt";
             bool flg1 = false, flg2 = false;
             if (File.Exists(file))
             {
